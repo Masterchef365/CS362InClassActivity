@@ -9,6 +9,7 @@ def calc(a, b):
     print(div)
     ls = [sum_, diff, mul, div]
     print(ls)
+    print(sum(ls))
 
 
 calc(4, 3)
