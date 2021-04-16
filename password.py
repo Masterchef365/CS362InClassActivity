@@ -5,4 +5,4 @@ def gen_password(n):
         password += chr(randrange(ord('a'), ord('z')))
     return password
 
-print(gen_password(20))
+print(gen_password(int(input("Enter password length: "))))
