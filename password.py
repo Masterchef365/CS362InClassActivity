@@ -1,2 +1,8 @@
+from random import randrange
 def gen_password(n):
-    pass
+    password = ""
+    for _ in range(n):
+        password += chr(randrange(ord('a'), ord('z')))
+    return password
+
+print(gen_password(20))
